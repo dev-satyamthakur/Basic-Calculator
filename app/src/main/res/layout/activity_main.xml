@@ -15,7 +15,8 @@
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="end"/>
 
     <TextView
         android:id="@+id/textView"
@@ -27,7 +28,9 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="end"
+        android:layout_marginBottom="16dp"/>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -41,8 +44,117 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:gravity="center">
 
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
+            <com.google.android.material.button.MaterialButton
+                style="@style/CommonButton"
+                android:text="1"
+                />
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
                 android:text="1"
