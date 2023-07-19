@@ -48,20 +48,20 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="C" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 app:icon="@drawable/ic_back"
-                app:iconTint="@color/black"/>
+                app:iconTint="@color/orange"/>
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="%" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="/" />
 
         </LinearLayout>
@@ -85,7 +85,7 @@
                 android:text="9" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="*" />
 
         </LinearLayout>
@@ -109,7 +109,7 @@
                 android:text="6" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="+" />
 
         </LinearLayout>
@@ -133,7 +133,7 @@
                 android:text="3" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="-" />
 
         </LinearLayout>
@@ -145,7 +145,7 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="A" />
 
             <com.google.android.material.button.MaterialButton
@@ -157,7 +157,7 @@
                 android:text="." />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/CommonButton"
+                style="@style/OperatorButton"
                 android:text="=" />
 
         </LinearLayout>
