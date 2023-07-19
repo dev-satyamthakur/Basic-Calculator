@@ -63,19 +63,23 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_clear"
                 android:text="C" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 app:icon="@drawable/ic_back"
+                android:id="@+id/btn_backspace"
                 app:iconTint="@color/orange"/>
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_modulo"
                 android:text="%" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_divide"
                 android:text="/" />
 
         </LinearLayout>
@@ -87,19 +91,23 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_7"
                 style="@style/CommonButton"
                 android:text="7" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_8"
                 android:text="8" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_9"
                 android:text="9" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_mul"
                 android:text="*" />
 
         </LinearLayout>
@@ -112,18 +120,22 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_4"
                 android:text="4" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_5"
                 android:text="5" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_6"
                 android:text="6" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_add"
                 android:text="+" />
 
         </LinearLayout>
@@ -136,18 +148,22 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_1"
                 android:text="1" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_2"
                 android:text="2" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_3"
                 android:text="3" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_subtract"
                 android:text="-" />
 
         </LinearLayout>
@@ -161,18 +177,22 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:textSize="20dp"
+                android:id="@+id/btn_ac"
                 android:text="AC" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_0"
                 android:text="0" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/CommonButton"
+                android:id="@+id/btn_dot"
                 android:text="." />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
+                android:id="@+id/btn_equal"
                 android:text="=" />
 
         </LinearLayout>
