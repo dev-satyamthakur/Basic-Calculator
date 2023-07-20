@@ -42,6 +42,21 @@ class MainActivity : AppCompatActivity() {
             bind.inputTv.text = bind.outputTv.text.toString().drop(1)
         }
 
+        bind.btnBackspace.setOnClickListener {
+            bind.inputTv.text = bind.inputTv.text.toString().dropLast(1)
+            try {
+                val lastChar = bind.inputTv.text.toString().last()
+                if (lastChar.isDigit()) {
+                    onEqual()
+                }
+            }
+            catch (e: Exception) {
+                bind.outputTv.text = ""
+                bind.outputTv.visibility = View.GONE
+                Log.e("MYAPP", e.toString())
+            }
+        }
+
     }
 
     fun onDigitClick(view: View) {
