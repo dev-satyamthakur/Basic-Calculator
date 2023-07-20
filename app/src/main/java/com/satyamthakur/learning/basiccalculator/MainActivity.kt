@@ -37,6 +37,11 @@ class MainActivity : AppCompatActivity() {
             bind.outputTv.visibility = View.GONE
         }
 
+        bind.btnEqual.setOnClickListener {
+            onEqual()
+            bind.inputTv.text = bind.outputTv.text.toString()
+        }
+
     }
 
     fun onDigitClick(view: View) {
