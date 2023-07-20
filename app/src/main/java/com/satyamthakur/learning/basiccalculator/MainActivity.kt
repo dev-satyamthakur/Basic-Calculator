@@ -27,6 +27,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bind.root)
+
+        bind.btnAc.setOnClickListener {
+            bind.inputTv.text = ""
+            bind.outputTv.text = ""
+            stateError = false
+            lastDot = false
+            lastNumeric = false
+            bind.outputTv.visibility = View.GONE
+        }
+
     }
 
     fun onDigitClick(view: View) {
