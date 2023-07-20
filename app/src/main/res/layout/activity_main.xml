@@ -77,11 +77,13 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:id="@+id/btn_modulo"
+                android:onClick="onOperatorClick"
                 android:text="%" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:id="@+id/btn_divide"
+                android:onClick="onOperatorClick"
                 android:text="/" />
 
         </LinearLayout>
@@ -113,6 +115,7 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:id="@+id/btn_mul"
+                android:onClick="onOperatorClick"
                 android:text="*" />
 
         </LinearLayout>
@@ -144,6 +147,7 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:id="@+id/btn_add"
+                android:onClick="onOperatorClick"
                 android:text="+" />
 
         </LinearLayout>
@@ -175,6 +179,7 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:id="@+id/btn_subtract"
+                android:onClick="onOperatorClick"
                 android:text="-" />
 
         </LinearLayout>

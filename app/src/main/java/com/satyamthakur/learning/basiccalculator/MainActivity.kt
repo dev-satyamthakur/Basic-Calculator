@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         bind.btnEqual.setOnClickListener {
             onEqual()
-            bind.inputTv.text = bind.outputTv.text.toString()
+            bind.inputTv.text = bind.outputTv.text.toString().drop(1)
         }
 
     }
@@ -55,6 +55,15 @@ class MainActivity : AppCompatActivity() {
 
         lastNumeric = true
         onEqual()
+    }
+
+    fun onOperatorClick(view: View) {
+        if (!stateError && lastNumeric) {
+            bind.inputTv.append((view as Button).text)
+            lastDot = false
+            lastNumeric = false
+            onEqual()
+        }
     }
 
     private fun onEqual() {
