@@ -57,6 +57,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        bind.btnClear.setOnClickListener {
+            bind.inputTv.text = ""
+            lastNumeric = false
+        }
+
     }
 
     fun onDigitClick(view: View) {
