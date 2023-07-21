@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         bind.btnEqual.setOnClickListener {
             onEqual()
-            bind.inputTv.text = bind.outputTv.text.toString().drop(1)
+            bind.inputTv.text = bind.outputTv.text.toString()
         }
 
         bind.btnBackspace.setOnClickListener {
