@@ -210,6 +210,8 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/OperatorButton"
                 android:id="@+id/btn_equal"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/orange"
                 android:text="=" />
 
         </LinearLayout>
